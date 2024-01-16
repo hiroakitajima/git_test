@@ -15,9 +15,28 @@
       <a href="">項目3</a>
     </nav>
   </header>
-  git_test
+  
+  <main>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </main>
+
+
 
   <style>
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+    .box {
+      background-color: #ccc;
+      aspect-ratio: 16 / 9;
+    }
+
     .p-header {
       display: flex;
       align-items: center;
